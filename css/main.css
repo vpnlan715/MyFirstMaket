@@ -1,7 +1,8 @@
 @import 'fonts.css';
 
 body {
-    font-family: 'MyriadPro';	
+    font-family: 'MyriadPro';
+	width: 100%;	
 }
 
 * {
@@ -20,7 +21,9 @@ div {
 /*Хедер*/
 header {
 	background: url(../img/Header.png) no-repeat center top / cover;
+	max-width: 1400px;
 	height: 805px;	
+	margin: 0 auto;	
 }
 .container {
 	max-width: 1400px;
@@ -126,6 +129,8 @@ nav {
 /*Меню*/
 .daily {
 	background: #fff;
+	width: 100%;
+	max-width: 1400px;
 	margin: 58px 0;
 }
 .title  h2 {
@@ -352,6 +357,9 @@ ul.leaders li.www:after {
 	width: 720px;
 	margin: 0 auto;
 }
+.dealy__active img {
+
+}
 h3 {
 	width: 42.83px;
 	display: block;
@@ -429,10 +437,12 @@ h4 {
 /*О нас*/
 .about__us {
 	background: url(../img/about.png) no-repeat center top / cover;
+	max-width: 1400px;
 	padding: 58px 0;
 }
 .fig { 
-	width: 416px;
+	 width: 100%;
+ 	max-width: 416px;
 	display: block;
 	margin: 0 auto;
 }
@@ -457,7 +467,7 @@ h4 {
 
 .about__items__wrap {
 	width: 100%;
-	max-width: 416px;
+	 max-width: 416px;
  	margin: 0 auto;	
 }
 
@@ -500,6 +510,7 @@ h4 {
 /*Футер*/
 footer {
 		background: url(../img/footer.png) no-repeat center top / cover;
+		max-width: 1400px;
 		padding-bottom: 200px;
 }
 footer a {
